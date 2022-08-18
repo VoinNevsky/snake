@@ -245,10 +245,10 @@ class snake
        return '<div id="information_panel">'+
        '<div class="point">Points <input id="point_field" class="field" type="text" value="'+this.point+'" /></div>'+
        '<div class="speed">Speed <input id="speed_field" class="field" type="text" value="'+(10 - this.speed / 100)+'" /></div>'+
-       '<div><button id="up" style="margin-left:50px;">Up</button></div>'+
+       '<div><button id="up" >Up</button></div>'+
        '<div"><button id="left">Left</button>'+
        '<button id="right">Right</button></div>'+
-       '<div ><button id="down" style="margin-left:50px;">Down</button></div>'+
+       '<div ><button id="down" >Down</button></div>'+
        '</div><br/><br/>'; 
     }
 }

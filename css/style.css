@@ -4,6 +4,12 @@ button {
     background:blue;
     color:white;
 }
+#up {
+    margin-left:50px;
+}
+#down {
+    margin-left:50px;
+}
 #game_field {
     margin-right:10px;
     float:left;
