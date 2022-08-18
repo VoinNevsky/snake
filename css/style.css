@@ -1,0 +1,48 @@
+button {
+    width:80px;
+    height:30px;
+    background:blue;
+    color:white;
+}
+#game_field {
+    margin-right:10px;
+    float:left;
+}
+#game_field td {
+    border: 1px solid #333;
+    width:20px;
+    height: 20px;
+}
+.information_panel {
+    font-size:16px;
+    color:blue;
+}
+.speed {
+    margin:10px;
+}
+.field {
+    width:80px;
+    height:20px;
+    font-size:16px;
+    color:blue;
+}
+
+.field_snake {
+    background:blue;
+}
+.field_new_snake {
+    animation: blink 1s linear infinite;
+    background:blue;
+}
+
+@keyframes blink {
+    0%, 20% {
+      background: blue;
+    }
+    10% {
+      background:white;
+    }
+  }
+.field empty {
+    background:white;
+}
